@@ -7,5 +7,7 @@ How to make it work:
 1. Open your command line shell and execute: npm install nodemon
 2. And after that: npm install express.
 
+PD: this commands have to be executed obviusly inside of the tetris game folder
+
 THATS IT, NOW YOU CAN PLAY A REALLY FUCKING BUGGED GAME OF TETRIS!!
 ENJOY!
