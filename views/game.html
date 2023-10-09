@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Tetris Rush</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="StartGame">
+        <button id="startButton">START</button>
+      </div>
+      <canvas class="dontShow"></canvas>
+      <div class="dontShow" id="scoreContainer">
+          <h2>Score</h2>
+          <h2 id="score"></h2>
+        </div>
+      </div>
+    </div>
+    <audio id="miAudio" src="/music/Tetris.mp3"></audio>
+    <script type="module" src="/js/const.js"></script>
+    <script type="module" src="/js/game-code.js"></script>
+  </body>
+</html>
